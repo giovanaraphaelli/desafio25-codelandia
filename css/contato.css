@@ -11,6 +11,10 @@
   flex-wrap: wrap;
 }
 
+.girapha {
+  margin: 0 auto;
+}
+
 .contato-box h3 {
   font-size: 1.125rem;
   font-weight: 600;
@@ -45,7 +49,8 @@
   .contato-box ul {
     gap: 5px;
   }
-  .contato-box ul li a {
+  .contato-box ul li a,
+  .girapha {
     font-size: 0.75rem;
   }
 }
