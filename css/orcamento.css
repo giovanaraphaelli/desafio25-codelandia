@@ -1,0 +1,47 @@
+.orcamento {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding: 50px;
+}
+
+.orcamento h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.orcamento p {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.btn-orcamento {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #272727;
+  border: 2px solid #272727;
+  padding: 10px 25px;
+  transition: 0.3s;
+}
+.btn-orcamento:hover {
+  color: #fff;
+  background-color: #272727;
+}
+
+@media (max-width: 600px) {
+  .orcamento {
+    text-align: center;
+    padding: 30px;
+  }
+  .orcamento h2 {
+    font-size: 1.5rem;
+  }
+
+  .orcamento p {
+    font-size: 0.875rem;
+  }
+  .btn-orcamento {
+    width: 100%;
+  }
+}

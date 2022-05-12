@@ -1,0 +1,51 @@
+.wrapper-contato {
+  background-color: #f9f9f9;
+}
+
+.contato {
+  display: flex;
+  gap: 100px;
+  padding: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.contato-box h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.contato-box,
+.contato-box ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contato-box ul li a {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.contato-box ul li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .contato {
+    gap: 30px;
+  }
+  .contato .logo {
+    display: none;
+  }
+  .contato-box h3 {
+    font-size: 0.875rem;
+  }
+  .contato-box,
+  .contato-box ul {
+    gap: 5px;
+  }
+  .contato-box ul li a {
+    font-size: 0.75rem;
+  }
+}
