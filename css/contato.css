@@ -3,15 +3,15 @@
 }
 
 .contato {
-  display: flex;
-  gap: 100px;
-  padding: 50px;
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr;
   align-items: flex-start;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  padding: 50px;
+  gap: 70px 0;
 }
 
 .girapha {
+  grid-column: 1/-1;
   margin: 0 auto;
 }
 
@@ -37,7 +37,9 @@
 
 @media (max-width: 600px) {
   .contato {
-    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    gap: 50px 10px;
   }
   .contato .logo {
     display: none;

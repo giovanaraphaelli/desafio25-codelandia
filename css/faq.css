@@ -25,11 +25,11 @@
   cursor: pointer;
 }
 .faq-lista dt::after {
-  content: "🢓";
+  content: url(/imgs/arrow-down.svg);
   margin-left: 10px;
 }
 .faq-lista dt.ativo::after {
-  content: "🢑";
+  content: url(/imgs/arrow-up.svg);
 }
 
 .faq-lista dd {
