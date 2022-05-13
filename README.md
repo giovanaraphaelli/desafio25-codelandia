@@ -1,6 +1,6 @@
 # desafio25-codelandia
 
-Naped - Central de Noticias Nerd
+HOMEYOU
 
 Este é o desafio *25* da comunidade *Codelândia* por [iuricode](https://github.com/iuricode)!
 
