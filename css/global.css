@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   color: #272727;
@@ -26,4 +29,15 @@ ul {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.js-scroll {
+  opacity: 0;
+  transform: translate3d(0, 60px, 0);
+  transition: 1s;
+}
+
+.js-scroll.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }
