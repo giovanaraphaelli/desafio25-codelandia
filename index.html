@@ -14,24 +14,29 @@
 
 <body>
     <header>
-        <div class="wrapper-nav">
+        <nav>
             <div class="logo">
                 <img src="/imgs/home.svg" alt="">
                 <a href="/index.html" class="logo">HOMEYOU</a>
             </div>
-            <nav>
-                <ul>
-                    <li><a class="ativo" href="#inicio">Início</a></li>
-                    <li><a href="#galeria">Galeria</a></li>
-                    <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#contato">Contato</a></li>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a class="ativo" href="#inicio">Início</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <div class="nav-icons">
                     <li><a href=""><img src="/imgs/fi_user.png" alt=""></a></li>
                     <li><a href=""><img src="/imgs/fi_heart.png" alt=""></a></li>
                     <li><a href=""><img src="/imgs/fi_search.png" alt=""></a></li>
+                </div>
 
-                </ul>
-            </nav>
-        </div>
+            </ul>
+        </nav>
     </header>
     <section class="wrapper-inicio js-scroll" id="inicio">
         <div class="inicio container">
@@ -123,6 +128,7 @@
     </footer>
     <script src="js/accordion.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/mobile-menu.js"></script>
 
 
 </body>
