@@ -107,7 +107,7 @@ nav {
     transform: translateX(0);
   }
   .mobile-menu.active .line1 {
-    transform: rotate(-45deg) translate(-5px, 5px);
+    transform: rotate(-45deg) translate(-1px, 3px);
   }
   .mobile-menu.active .line2 {
     opacity: 0;
