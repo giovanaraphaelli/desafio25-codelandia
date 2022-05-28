@@ -82,7 +82,7 @@ nav {
     position: absolute;
     top: 8vh;
     right: 0;
-    width: 50vh;
+    width: 40vh;
     height: 90vh;
     background: #e0e0e0;
     flex-direction: column-reverse;
@@ -107,7 +107,7 @@ nav {
     transform: translateX(0);
   }
   .mobile-menu.active .line1 {
-    transform: rotate(-45deg) translate(-5px, 5px);
+    transform: rotate(-45deg) translate(-5px, 6px);
   }
   .mobile-menu.active .line2 {
     opacity: 0;
