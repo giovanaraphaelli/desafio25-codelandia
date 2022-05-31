@@ -3,6 +3,7 @@ header {
   z-index: 999;
   margin: 0 15px;
   width: 100%;
+  background-color: #ffffff;
 }
 nav {
   display: flex;
@@ -11,7 +12,6 @@ nav {
   padding: 0 25px;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
   height: 8vh;
 }
 
