@@ -1,7 +1,7 @@
 function menuMobile() {
   const mobileMenu = document.querySelector(".mobile-menu");
   const navList = document.querySelector(".nav-list");
-  const navLinks = document.querySelectorAll(".nav-list li");
+  const navLinks = document.querySelectorAll(".nav-list li a");
 
   function closeNav() {
     function removeActive() {
