@@ -21,6 +21,7 @@ function menuMobile() {
   }
 
   mobileMenu.addEventListener("click", handleClick);
+  mobileMenu.addEventListener("touchstart", handleClick);
 }
 
 menuMobile();
