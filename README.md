@@ -2,7 +2,7 @@
 
 ## desafio25-codelandia
 
-####Este é o desafio _25_ da comunidade _Codelândia_ por [iuricode](https://github.com/iuricode)!
+#### Este é o desafio _25_ da comunidade _Codelândia_ por [iuricode](https://github.com/iuricode)!
 
 ![Resultado final do projeto](imgs/homeyou.png)
 
@@ -30,7 +30,7 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 - CSS;
 - JavaScript;
 
-### ⚙️ Ajustes e melhorias
+## ⚙️ Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
